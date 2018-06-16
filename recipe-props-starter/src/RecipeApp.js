@@ -7,7 +7,7 @@ class RecipeApp extends Component {
   render() {
     return (
       <div className="App">
-        <Recipe />
+        <Recipe title="Pasta" ingredients={["Flour", "Water"]} />
       </div>
     );
   }
