@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import Recipe from './Recipe';
+// import Recipe from './Recipe';
+import NavBar from './NavBar';
+import RecipeList from './RecipeList';
 import './RecipeApp.css';
 
 class RecipeApp extends Component {
   render() {
     return (
       <div className="App">
-        <Recipe
-          title="Pasta"
-          ingredients={["Flour", "Water"]}
-          instructions="Add the flour to water and mix"
-          img="spaghetti.jpg"
-        />
+        <NavBar />
+        <RecipeList />
       </div>
     );
   }
